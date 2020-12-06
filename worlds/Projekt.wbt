@@ -3,10 +3,86 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.1504094383162593 0.9717728830541467 0.1817538572521071 1.5049103968494233
-  position 2.818853197166067 1.3449060131368102 0.07817808790001432
+  orientation -0.9843093377714847 0.13393751209779903 0.11487327987357726 0.5695677319323849
+  position 2.2864503340953632 7.9660339103154065 13.253262491840847
+}
+PlasticCrate {
+  translation 2.41 0.11 0
+  name "plastic crate(1)"
+  size 0.4 0.3 0.7
+  color 0.000106813 0.00175479 0.998215
+}
+PlasticCrate {
+  translation 1.86 0.11 0
+  name "plastic crate(2)"
+  size 0.4 0.3 0.7
+  color 0.93312 0.979431 0.0806592
+}
+PlasticCrate {
+  translation 2.96 0.11 0
+  name "plastic crate(3)"
+  size 0.4 0.3 0.7
+  color 0.986252 0.00712596 0.0274357
+}
+PlasticCrate {
+  translation 3.56 0.11 0
+  name "plastic crate(4)"
+  size 0.4 0.3 0.7
+  color 0.13135 0.99968 0.023621
+}
+PlasticCrate {
+  translation 3.56 0.11 1.57
+  name "plastic crate(5)"
+  size 0.6 0.5 0.6
+  color 0 0 0
+}
+PlatformCart {
+  translation 2.41 0 -0.0399998
+  rotation 0 1 0 -1.5707953071795862
+}
+PlatformCart {
+  translation 2.96 0 -0.0400003
+  rotation 0 1 0 -1.5707953071795862
+  name "platform cart(1)"
+}
+PlatformCart {
+  translation 1.86 0 -0.0399996
+  rotation 0 1 0 -1.5707953071795862
+  name "platform cart(2)"
+}
+PlatformCart {
+  translation 3.55 0 -0.0400005
+  rotation 0 1 0 -1.5707953071795862
+  name "platform cart(3)"
+}
+PlasticCrate {
+  translation -3.41 0.14 1
+  size 0.5 0.3 0.5
+}
+RubberDuck {
+  translation -3.43 0.23 1.03
+}
+Irb4600-40 {
+  translation -2.20735 -1.02745e-05 0.902529
+  rotation -3.4342913656717876e-07 0.7071072811865279 0.7071062811861302 -3.1415853071795863
+  name "ruka_1"
+}
+Irb4600-40 {
+  translation 1.87265 1.22907e-05 0.97253
+  rotation -3.4342913656717876e-07 0.7071072811865279 0.7071062811861302 -3.1415853071795863
+  name "ruka_2"
+}
+WoodenPallet {
+  translation -3.32 0 0.95
+  rotation 0 1 0 1.5708
+}
+ConveyorBelt {
+  translation -0.72 0 0
+  size 4 0.5 0.5
 }
 RectangleArena {
+  floorSize 8 8
+  floorTileSize 1 1
 }
 TexturedBackgroundLight {
   texture "factory"
